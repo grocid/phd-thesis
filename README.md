@@ -1,13 +1,21 @@
 # Some Notes on Code-Based Cryptography
 
 ## Abstract
-This thesis presents new cryptanalytic results in several areas of coding- based cryptography. In addition, we also investigate the possibility of using convolutional codes in code-based public-key cryptograph. The first algorithm that we present is an information-set decoding algorithm, aiming towards the problem of decoding random linear codes. We apply the generalized birthday technique to information-set decoding, improving the computational complexity over previous approaches. Next, we present a new version of the McEliece public-key cryptosystem based on convolutional codes. The original construction uses Goppa codes, which is an algebraic code family admitting a well-defined code structure. In the two constructions proposed, large parts of randomly generated parity checks are used. By increasing the entropy of the generator matrix, this presumably makes structured attacks more difficult. Following this, we analyze a McEliece variant based on quasi-cylic MDPC codes. We show that when the underlying code construction has an even dimension, the system is susceptible to, what we call, a squaring attack. Our results show that the new squaring attack allows for great complexity improvements over previous attacks on this particular McEliece construction. Then, we introduce two new techniques for finding low-weight polynomial multiples. Firstly, we propose a general technique based on a reduction to the minimum-distance problem in coding, which increases the multiplicity of the low-weight codeword by extending the code. We use this algorithm to break some of the instances used by the TCHo cryptosystem. Secondly, we propose an algorithm for finding weight-4 polynomials. By using the generalized birthday technique in conjunction with increasing the multiplicity of the low-weight polynomial multiple, we obtain a much better complexity than previously known algorithms. Lastly, two new algorithms for the learning parities with noise (LPN) problem are proposed. The first one is a general algorithm, applicable to any instance of LPN. The algorithm performs favorably compared to previously known algorithms, breaking the 80-bit security of the widely used p512, 1 q 8 instance. The second one focuses on LPN instances over a polynomial ring, when the generator polynomial is reducible. Using the algorithm, we break an 80-bit security instance of the Lapin cryptosystem.
+This thesis presents new cryptanalytic results in several areas of coding- based cryptography. In addition, we also investigate the possibility of using convolutional codes in code-based public-key cryptograph. The first algorithm that we present is an information-set decoding algorithm, aiming towards the problem of decoding random linear codes. We apply the generalized birthday technique to information-set decoding, improving the computational complexity over previous approaches. 
+
+Next, we present a new version of the McEliece public-key cryptosystem based on convolutional codes. The original construction uses Goppa codes, which is an algebraic code family admitting a well-defined code structure. In the two constructions proposed, large parts of randomly generated parity checks are used. By increasing the entropy of the generator matrix, this presumably makes structured attacks more difficult. 
+
+Following this, we analyze a McEliece variant based on quasi-cylic MDPC codes. We show that when the underlying code construction has an even dimension, the system is susceptible to, what we call, a squaring attack. Our results show that the new squaring attack allows for great complexity improvements over previous attacks on this particular McEliece construction. 
+
+Then, we introduce two new techniques for finding low-weight polynomial multiples. Firstly, we propose a general technique based on a reduction to the minimum-distance problem in coding, which increases the multiplicity of the low-weight codeword by extending the code. We use this algorithm to break some of the instances used by the TCHo cryptosystem. Secondly, we propose an algorithm for finding weight-4 polynomials. By using the generalized birthday technique in conjunction with increasing the multiplicity of the low-weight polynomial multiple, we obtain a much better complexity than previously known algorithms. 
+
+Lastly, two new algorithms for the learning parities with noise (LPN) problem are proposed. The first one is a general algorithm, applicable to any instance of LPN. The algorithm performs favorably compared to previously known algorithms, breaking the 80-bit security of the widely used (512, 1/8) instance. The second one focuses on LPN instances over a polynomial ring, when the generator polynomial is reducible. Using the algorithm, we break an 80-bit security instance of the Lapin cryptosystem.
 
 ## Table of Contents
-
+```
 1.  Introduction
-	1.1  Outline
-	1.2  Notation
+  1.1  Outline
+  1.2  Notation
 	1.3  Probability Theory and Combinatorics
 	1.4  Information Theory
 	1.5  Hypothesis Testing
@@ -112,4 +120,4 @@ This thesis presents new cryptanalytic results in several areas of coding- based
 	
 9.  Concluding Remarks
 10.  References
-		 
+```
