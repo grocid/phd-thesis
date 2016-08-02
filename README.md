@@ -1,7 +1,7 @@
 # Some Notes on Code-Based Cryptography
 
 ## Abstract
-This thesis presents new cryptanalytic results in several areas of coding- based cryptography. In addition, we also investigate the possibility of using convolutional codes in code-based public-key cryptograph. The first algorithm that we present is an information-set decoding algorithm, aiming towards the problem of decoding random linear codes. We apply the generalized birthday technique to information-set decoding, improving the computational complexity over previous approaches. 
+This thesis presents new cryptanalytic results in several areas of coding-based cryptography. In addition, we also investigate the possibility of using convolutional codes in code-based public-key cryptograph. The first algorithm that we present is an information-set decoding algorithm, aiming towards the problem of decoding random linear codes. We apply the generalized birthday technique to information-set decoding, improving the computational complexity over previous approaches. 
 
 Next, we present a new version of the McEliece public-key cryptosystem based on convolutional codes. The original construction uses Goppa codes, which is an algebraic code family admitting a well-defined code structure. In the two constructions proposed, large parts of randomly generated parity checks are used. By increasing the entropy of the generator matrix, this presumably makes structured attacks more difficult. 
 
